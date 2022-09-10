@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_settings_navigation"
+    app:startDestination="@id/userSettings">
+
+    <fragment
+        android:id="@+id/userSettings"
+        android:name="com.example.watchly.ui.fragments.user_settings.UserSettings"
+        android:label="fragment_user_settings"
+        tools:layout="@layout/fragment_user_settings" >
+        <action
+            android:id="@+id/action_userSettings_to_changeName"
+            app:destination="@id/changeName"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_userSettings_to_changeLastName"
+            app:destination="@id/changeLastName"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_userSettings_to_changeImage"
+            app:destination="@id/changeImage"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_userSettings_to_changeUsername"
+            app:destination="@id/changeUsername"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeName"
+        android:name="com.example.watchly.ui.fragments.user_settings.ChangeName"
+        android:label="fragment_change_name"
+        tools:layout="@layout/fragment_change_name" />
+    <fragment
+        android:id="@+id/changeLastName"
+        android:name="com.example.watchly.ui.fragments.user_settings.ChangeLastName"
+        android:label="fragment_change_last_name"
+        tools:layout="@layout/fragment_change_last_name" />
+    <fragment
+        android:id="@+id/changeUsername"
+        android:name="com.example.watchly.ui.fragments.user_settings.ChangeUsername"
+        android:label="fragment_change_username"
+        tools:layout="@layout/fragment_change_username" />
+    <fragment
+        android:id="@+id/changeImage"
+        android:name="com.example.watchly.ui.fragments.user_settings.ChangeImage"
+        android:label="fragment_change_image"
+        tools:layout="@layout/fragment_change_image" />
+</navigation>

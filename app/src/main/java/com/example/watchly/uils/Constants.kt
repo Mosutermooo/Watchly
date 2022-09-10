@@ -1,0 +1,36 @@
+package com.example.watchly.uils
+
+object Constants {
+    const val USERS: String = "Users"
+    const val SUBUSERS: String = "Sub Users"
+    const val LoadingDialogTag: String = "LOADING DIALOG"
+    const val AddSubUserDialogTag: String = "ADD SUB USER DIALOG"
+    const val name: String = "name"
+    const val lastname: String = "lastname"
+    const val username: String = "username"
+    const val image: String = "image"
+    const val registrationState: String = "registrationState"
+    const val DbVersion: Int = 6
+    const val DB_NAME: String = "WatchlyDB"
+    const val SubUserImage: String = "image"
+    const val SubUserName: String = "name"
+    const val SubUserIdKey: String = "suid"
+    const val Channels: String = "Channels"
+    const val Subscribers: String = "Subscribers"
+    const val Videos: String = "Videos"
+    const val Views: String = "Views"
+    const val Comments: String = "Comments"
+    const val FCM_BASE_URL: String = "https://fcm.googleapis.com/fcm/"
+    const val KEY: String = "key="
+    const val AUTH_KEY: String = "AAAATr3b7mM:APA91bHcca-TSD9DI-pNFvvorA3lt-G0pKbXa7JY0B-hBZIBAXhAguItVVdIAM_jz9rm62-DQFrCBdRiPunF8X0VELTsLMinxCIXNZkvpBnoZKMTqTWol1xtHLu0rj6ozgHb-KU6zgKT"
+    const val project_Id: String = "338192756323"
+    const val notification_post: String = "notification"
+    const val notification_send_post: String = "send"
+    const val Likes: String = "Likes"
+    const val Dislikes: String = "Dislikes"
+    const val channel: String = "channel"
+    const val changeChannelNameDialogTAG = "100"
+    const val changeChannelDescriptionDialogTAG = "101"
+    const val videoViewDialogTAG = "VIDEO_VIEW"
+    var isAddingSubUser: Boolean = false
+}

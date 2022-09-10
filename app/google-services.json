@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338192756323",
+    "project_id": "watchly4",
+    "storage_bucket": "watchly4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338192756323:android:4d91bf0157d917bf6c1256",
+        "android_client_info": {
+          "package_name": "com.example.watchly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338192756323-afudaaq2q9srnq1mvaqur6npatpilc0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAIgJ6UKJGKOubx8aghny2LGhKSaDVGwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338192756323-afudaaq2q9srnq1mvaqur6npatpilc0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

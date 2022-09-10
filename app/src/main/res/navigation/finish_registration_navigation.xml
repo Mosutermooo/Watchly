@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/finish_registration_navigation"
+    app:startDestination="@id/stageOne">
+
+    <fragment
+        android:id="@+id/stageOne"
+        android:name="com.example.watchly.ui.fragments.finishRegistration.StageOne"
+        android:label="fragment_stage_one"
+        tools:layout="@layout/fragment_stage_one" />
+</navigation>

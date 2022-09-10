@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainColor1"
+    tools:context=".ui.fragments.video_uploading.UploadVideo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/VideoImage"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:src="@color/GrayTextColor" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="3"
+                    android:hint="@string/video_title"
+                    android:textColorHint="@color/DarkerGrayTextColor"
+                    app:boxStrokeWidth="0dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="100"
+                    app:counterTextColor="@color/white"
+                    app:hintTextColor="@color/DarkerGrayTextColor"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/et_bg"
+                        android:gravity="start|top"
+                        android:inputType="textMultiLine"
+                        android:minLines="3"
+                        android:maxLines="6"
+                        android:textColor="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/add_your_video_description"
+                android:textColorHint="@color/DarkerGrayTextColor"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="500"
+                app:counterTextColor="@color/white"
+                app:hintTextColor="@color/DarkerGrayTextColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_video_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/et_bg"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:minLines="5"
+                    android:maxLines="15"
+                    android:textColor="@color/white" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/channelImage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@color/GrayTextColor" />
+
+                <TextView
+                    android:id="@+id/channelName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:padding="20dp"
+                    android:textColor="@color/white"
+                    tools:text="Mosutermo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SetVideoVisibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/channel_settings_button_click"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_baseline_visibility_24" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/visibility"
+                        android:textColor="@color/GrayTextColor" />
+
+                    <TextView
+                        android:id="@+id/visibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Public"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_arrow_forward_24"
+                    app:tint="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/customThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/channel_settings_button_click"
+                android:drawablePadding="10dp"
+                android:padding="20dp"
+                android:text="@string/add_custom_thumbnail"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_baseline_image_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:drawableTint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SetVideoVisibility"
+                app:drawableEndCompat="@drawable/ic_baseline_arrow_forward_24" />
+
+            <TextView
+                android:id="@+id/UploadVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/manage_videos_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:text="@string/upload_video"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/customThumbnail" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

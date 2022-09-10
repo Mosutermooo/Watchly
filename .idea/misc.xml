@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/add_a_photo_cricle_icon.xml" value="0.178" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/bottom_nav_design.xml" value="0.178" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/btn_bg.xml" value="0.1585" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/button_press.xml" value="0.175" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/channel_settings_button_click.xml" value="0.178" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/et_bg.xml" value="0.1585" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.178" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/ic_baseline_replay_5_24.xml" value="0.139" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/ic_baseline_save_as_24.xml" value="0.175" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/ic_baseline_thumb_up_24.xml" value="0.139" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/item_background.xml" value="0.175" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/item_background_menage_videos.xml" value="0.139" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/item_press.xml" value="0.175" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/drawable/manage_videos_background.xml" value="0.176" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout-v23/fragment_change_sub_user.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_app_settings.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_channel_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_channel_settings.xml" value="0.152" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_channel_settings2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_create_channel.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_finish_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_start.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_user_settings.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_video_play.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_video_upload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/activity_who_is_watching.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/add_sub_user_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/all_sub_users_app_settings.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/are_you_sure_dialog.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/channel_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/channel_description_change_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/channel_item_view.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/channel_name_change_dialog.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/channel_sections.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/channel_user_item_view.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/comments_item_view.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/custom_video_controller.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/dialog_add_sub_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/dialog_comments.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/dialog_fragment_loading.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_about2.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_add_sub_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_app_settings.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_change_image.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_change_last_name.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_change_name.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_change_sub_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_change_username.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_channel.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_channel_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_channel_home2.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_channel_settings.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_create_channel.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_create_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_custom_thumbnail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_gaming.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_login.xml" value="0.176" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_rigister.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_search.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_select_an_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_selected_video_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_stage_one.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_stage_two.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_sub_users_settings.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_upload_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_user_settings.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_video_visibility.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_videos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_videos2.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/fragment_who_is_watching.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/images_from_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/personal_channel_videos_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/private_video_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/search_item.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/sub_users_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/sub_users_list_user_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/user_item_view.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/user_preview_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/video_play_player_layout.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/video_view_dialog.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/videos_from_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/layout/videos_home_display_adapter_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/menu/channel_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/menu/main_toolbar_menu.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Lenovo/Desktop/Watchly/app/src/main/res/menu/select_an_video_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

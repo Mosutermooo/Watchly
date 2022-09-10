@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video_upload_navigation"
+    app:startDestination="@id/selectAnVideo">
+
+    <fragment
+        android:id="@+id/selectAnVideo"
+        android:name="com.example.watchly.ui.fragments.video_uploading.SelectAnVideo"
+        android:label="fragment_select_an_video"
+        tools:layout="@layout/fragment_select_an_video" >
+        <action
+            android:id="@+id/action_selectAnVideo_to_selectedVideoView"
+            app:destination="@id/selectedVideoView"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectedVideoView"
+        android:name="com.example.watchly.ui.fragments.video_uploading.SelectedVideoView"
+        android:label="fragment_selected_video_view"
+        tools:layout="@layout/fragment_selected_video_view" >
+        <argument
+            android:name="galleryVideo"
+            app:argType="com.example.watchly.models.GalleryVideo" />
+        <action
+            android:id="@+id/action_selectedVideoView_to_uploadVideo"
+            app:destination="@id/uploadVideo"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"  />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadVideo"
+        android:name="com.example.watchly.ui.fragments.video_uploading.UploadVideo"
+        android:label="fragment_upload_video"
+        tools:layout="@layout/fragment_upload_video" >
+        <argument
+            android:name="galleryVideo"
+            app:argType="com.example.watchly.models.GalleryVideo" />
+        <action
+            android:id="@+id/action_uploadVideo_to_videoVisibility"
+            app:destination="@id/videoVisibility"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"  />
+        <action
+            android:id="@+id/action_uploadVideo_to_customThumbnail"
+            app:destination="@id/customThumbnail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"  />
+    </fragment>
+    <fragment
+        android:id="@+id/videoVisibility"
+        android:name="com.example.watchly.ui.fragments.video_uploading.VideoVisibility"
+        android:label="fragment_video_visibility"
+        tools:layout="@layout/fragment_video_visibility" />
+    <fragment
+        android:id="@+id/customThumbnail"
+        android:name="com.example.watchly.ui.fragments.video_uploading.CustomThumbnail"
+        android:label="fragment_custom_thumbnail"
+        tools:layout="@layout/fragment_custom_thumbnail" >
+        <argument
+            android:name="thumbnail"
+            app:argType="string" />
+    </fragment>
+</navigation>

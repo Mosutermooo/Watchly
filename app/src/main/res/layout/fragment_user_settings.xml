@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainColor1"
+    tools:context=".ui.fragments.user_settings.UserSettings">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/GrayTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="@string/user"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/ChangeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/change_name"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_baseline_change_circle_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+            <TextView
+                android:id="@+id/ChangeLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:text="@string/change_lastname"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                app:drawableStartCompat="@drawable/ic_baseline_change_circle_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ChangeName" />
+
+
+            <TextView
+                android:id="@+id/ChangeUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:text="@string/change_username"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                app:drawableStartCompat="@drawable/ic_baseline_change_circle_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ChangeLastName" />
+
+            <TextView
+                android:id="@+id/ChangeImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:text="@string/change_image"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                app:drawableStartCompat="@drawable/ic_baseline_change_circle_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ChangeLastName" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="@string/account"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <TextView
+                android:id="@+id/Account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:text="@string/account_details"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                app:drawableStartCompat="@drawable/ic_baseline_account_box_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ChangeLastName" />
+
+
+            <TextView
+                android:id="@+id/ChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:text="@string/change_password"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                app:drawableStartCompat="@drawable/ic_baseline_change_circle_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ChangeLastName" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

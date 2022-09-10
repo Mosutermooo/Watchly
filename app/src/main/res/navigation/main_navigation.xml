@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/home2">
+    <fragment
+        android:id="@+id/gaming"
+        android:name="com.example.watchly.ui.fragments.main.Gaming"
+        android:label="fragment_gaming"
+        tools:layout="@layout/fragment_gaming" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.watchly.ui.fragments.main.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="subUserId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.watchly.ui.fragments.main.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

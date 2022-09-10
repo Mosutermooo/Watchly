@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/MainColor1"
+    tools:context=".ui.fragments.main.Profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+                <ImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@color/GrayTextColor"
+                    android:contentDescription="@string/profile_image" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/GrayTextColor"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView"
+                tools:text="@string/weak_password" />
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:textColor="@color/GrayTextColor"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView"
+                tools:text="@string/weak_password" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="@string/user"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+            <TextView
+                android:id="@+id/UserSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/user_settings"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:clickable="true"
+                app:drawableStartCompat="@drawable/ic_baseline_account_circle_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                android:focusable="true" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="@string/other"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+
+
+            <TextView
+                android:id="@+id/DeleteAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:text="@string/delete_account"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                app:drawableStartCompat="@drawable/ic_baseline_delete_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ChangeLastName" />
+
+            <TextView
+                android:id="@+id/LogOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_press"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/log_out"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:clickable="true"
+                app:drawableStartCompat="@drawable/ic_baseline_logout_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                android:focusable="true" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

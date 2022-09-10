@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainColor1"
+    tools:context=".ui.fragments.login.RegisterFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tl_sing_up"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="40dp"
+        android:padding="5dp"
+        android:text="@string/let_s_register_you_in"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl_sing_up" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="2dp"
+        android:padding="5dp"
+        android:text="@string/by_registering_you_will_be_nable_to_user_our_service"
+        android:textColor="@color/GrayTextColor"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:hint="@string/email_address"
+        android:textColorHint="@color/DarkerGrayTextColor"
+        app:boxStrokeWidth="0dp"
+        android:layout_marginTop="60dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/DarkerGrayTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/et_bg"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_error_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Invaild email"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/design_default_color_error"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:hint="@string/password"
+        android:textColorHint="@color/DarkerGrayTextColor"
+        app:boxStrokeWidth="0dp"
+        android:layout_marginTop="20dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/DarkerGrayTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/GrayTextColor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/et_bg"
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/tv_error_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Invaild email"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/design_default_color_error"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:hint="@string/confirm_password"
+        android:textColorHint="@color/DarkerGrayTextColor"
+        app:boxStrokeWidth="0dp"
+        android:layout_marginTop="20dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/DarkerGrayTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/GrayTextColor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/et_bg"
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_error_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Invaild email"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/design_default_color_error"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginVertical="30sp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

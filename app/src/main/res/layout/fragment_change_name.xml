@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainColor1"
+    tools:context=".ui.fragments.user_settings.ChangeName">
+
+    <LinearLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/change_name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/Save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout2"
+        tools:text="Current Name: Boeing" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:hint="@string/change_name"
+        android:textColorHint="@color/DarkerGrayTextColor"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        android:layout_marginTop="30dp"
+        app:hintTextColor="@color/DarkerGrayTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/et_bg"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

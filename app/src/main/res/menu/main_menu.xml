@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/home2"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/gaming"
+        android:title="@string/gaming"
+        android:visible="false"
+        android:icon="@drawable/ic_gaming" />
+
+    <item android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"/>
+
+    <item android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+
+
+
+
+
+
+
+</menu>

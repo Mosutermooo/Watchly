@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/SearchChannel"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/delete_channel"
+        android:title="@string/delete_channel"/>
+
+    <item android:id="@+id/channelSettingsMenu"
+        android:title="@string/channel_settings"/>
+
+</menu>

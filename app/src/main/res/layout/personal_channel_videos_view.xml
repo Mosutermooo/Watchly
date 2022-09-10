@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toosl="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    android:background="@drawable/channel_settings_button_click"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/videoThumbnail"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:src="@color/GrayTextColor"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/VideoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:minLines="1"
+            android:textColor="@color/GrayTextColor"
+            android:textSize="20sp"
+            tools:text="Video Title"
+            toosl:layout_constraintEnd_toEndOf="parent"
+            toosl:layout_constraintStart_toStartOf="parent"
+            toosl:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/videoViews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15K views"
+            android:textColor="@color/GrayTextColor"
+            android:textSize="15sp"
+            toosl:layout_constraintBottom_toBottomOf="parent"
+            toosl:layout_constraintEnd_toEndOf="parent"
+            toosl:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
